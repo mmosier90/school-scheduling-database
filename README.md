@@ -67,3 +67,14 @@ This query joins staff, section, and course data to retrieve a teacher's schedul
 - The roster table resolves the many-to-many relationship between students and class sections.
 - Unique identifiers support consistent relationships across tables.
 - Derived section-level metrics are calculated through queries rather than redundantly stored in transactional tables.
+
+
+
+## Future Improvements
+
+- Add explicit foreign-key constraints and validation checks.
+- Add indexes for frequently queried schedule and enrollment fields.
+- Create stored procedures for common reporting requests.
+- Add automated tests for duplicate schedules and invalid enrollments.
+- Expand the model to include departments, semesters, prerequisites, and historical enrollment.
+- Rebuild the project in a modern relational platform such as PostgreSQL or SQL Server.
