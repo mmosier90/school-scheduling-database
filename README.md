@@ -38,29 +38,16 @@ The database connects five core operational areas:
 - Students
 - Section rosters
 
-Image coming soon! logical-data-model
+![Logical Model](screenshots/normalized-logical-model.JPG)
 
 The structure separates course definitions, scheduled class sections, staff assignments, student records, and enrollment-level performance information.
 
-## Example Queries
-
-### Teacher Schedule
+## Example Query:  Teacher Schedule
 
 This query joins staff, section, and course data to retrieve a teacher's scheduled classes in period order.
 
-Image coming soon! teacher-schedule-query
+![Teacher Schedule](screenshots/teacher-schedule-query.JPG)
 
-### Student Schedule
-
-A reusable SQL view retrieves each student's assigned class periods and rooms.
-
-Image coming soon! student-schedule-view
-
-### Course-Section Performance
-
-Aggregate queries summarize grades, GPA, and attendance by course section to support academic and operational analysis.
-
-Image coming soon! section-performance-query
 
 ## Development Process
 
